@@ -11,3 +11,9 @@ To exit the CLISP command prompt, run this instruction.
 ```
 (cl-user::quit)
 ```
+
+Run this command to execute a Lisp script.
+The file extension should be `.lisp`.
+```
+clisp [file name]
+```
