@@ -18,4 +18,7 @@
   (format t "gcd(~a, ~a) = ~a" a b pgcd)
 )
 
-(print_gcd 360 240)
+(setq a (parse-integer (car *args*)))
+(setq b (parse-integer (car (cdr *args*))))
+
+(print_gcd a b)
