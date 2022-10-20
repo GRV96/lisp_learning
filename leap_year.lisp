@@ -10,4 +10,7 @@
 
 (setq leap (leap-year y))
 
-(format t "~a is a leap year: ~a." y leap)
+(if leap
+  (format t "~a is a leap year." y)
+  (format t "~a is not a leap year." y)
+)
