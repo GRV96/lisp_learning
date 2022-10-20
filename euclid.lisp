@@ -1,12 +1,12 @@
 (defun euclid(a b)
   (if (or (< a 0) (< b 0) (< a b))
-    (return nil))
+    (return-from euclid nil))
 
   (loop
     (setq r (rem a b))
 
     (if (zerop r)
-      (return b))
+      (return-from euclid b))
 
     (setq a b)
     (setq b r)
