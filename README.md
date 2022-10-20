@@ -1,9 +1,10 @@
-# lisp_learning
+# Lisp Learning
 
 In this repository, I store the code that I write to learn the language Lisp.
 
 Download the compiler and interpreter CLISP.
 ```
+sudo apt update
 sudo apt install -y clisp
 ```
 

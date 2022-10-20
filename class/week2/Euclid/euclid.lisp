@@ -1,5 +1,6 @@
-(defun euclid(a b)
-  (if (or (< a 0) (< b 0) (< a b))
+; Euclid's algorithm
+(defun euclid(a b) 
+  (if (or (< a 0) (< b 0) (< a b)) 
     (return-from euclid nil))
 
   (loop
