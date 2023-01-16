@@ -7,13 +7,17 @@ Download the compiler and interpreter CLISP.
 sudo apt install -y clisp
 ```
 
-To exit the CLISP command prompt, run this instruction.
+Open the CLISP command prompt.
+```
+clisp
+```
+
+Exit the CLISP command prompt.
 ```
 (cl-user::quit)
 ```
 
-Run this command to execute a Lisp script.
-The file extension should be `.lisp`.
+Execute a Lisp script. The file extension should be `.lisp`.
 ```
 clisp [file name]
 ```
