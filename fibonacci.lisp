@@ -20,7 +20,7 @@
   (return-from fibonacci f1)
 )
 
-(setq n (parse-integer (car *args*)))
-(setq fibo (fibonacci n))
-
-(format t "fibonacci(~a) = ~a" n fibo)
+(defun print-fibonacci(n)
+  (setq fibo (fibonacci n))
+  (format t "fibonacci(~a) = ~a~%" n fibo)
+)

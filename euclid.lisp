@@ -13,12 +13,7 @@
   )
 )
 
-(defun print_gcd(a b)
+(defun print-gcd(a b)
   (setq pgcd (euclid a b))
-  (format t "gcd(~a, ~a) = ~a" a b pgcd)
+  (format t "gcd(~a, ~a) = ~a~%" a b pgcd)
 )
-
-(setq a (parse-integer (car *args*)))
-(setq b (parse-integer (car (cdr *args*))))
-
-(print_gcd a b)
