@@ -6,7 +6,7 @@
 (print-gcd 23 19)
 (print-gcd 144 60)
 (print-gcd 256 64)
-(format t "~%")
+(terpri)
 
 (print-fibonacci 0)
 (print-fibonacci 1)
@@ -21,7 +21,7 @@
 (print-fibonacci 10)
 (print-fibonacci 11)
 (print-fibonacci 12)
-(format t "~%")
+(terpri)
 
 (print-is-leap-year 2024)
 (print-is-leap-year 2023)
